@@ -1,0 +1,4 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshguard\[[[:digit:]]+\]: [[:alnum:].:]+ has already been blocked$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshguard\[[[:digit:]]+\]: Attack from "[[:alnum:].:]+" on service [0-9]+ with danger [0-9]+\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshguard\[[[:digit:]]+\]: Blocking "[[:alnum:].:]+/[0-9]+" for [0-9]+ secs \([0-9]+ attacks in [0-9]+ secs, after [0-9]+ abuses over [0-9]+ secs.\)$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshguard\[[[:digit:]]+\]: Blocking [[:alnum:].:]+ for [0-9]+ secs \([0-9]+ attacks in [0-9]+ secs, after [0-9]+ abuses over [0-9]+ secs\)$

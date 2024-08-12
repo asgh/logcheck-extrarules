@@ -1,0 +1,2 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dovecot: (imap|pop3)\([^)]+\)<[0-9]+><[[:alnum:]+/]+>: (Logged out|Disconnected: Logged out|Disconnected for inactivity|Connection (closed|reset by peer|closed: read\(size=[0-9]+\) failed: Connection reset by peer) \((UID SEARCH|IDLE|LIST) [^)]+\)) ([a-z_]+=[0-9/]+,? ?)+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dovecot: (imap|pop3)-login: (Disconnected|Login|Aborted login).*, session=<[[:alnum:]+/]+>$
